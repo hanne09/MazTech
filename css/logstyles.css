@@ -1,0 +1,165 @@
+body{
+    background-color: whitesmoke;
+}
+
+/*---------------------
+    Maz-Tech Logo
+----------------------*/
+
+.header-container{
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.2em; 
+    color: black;
+    padding: 20px;
+}
+
+.logo{
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+
+/*----------------------
+    Main container
+----------------------*/
+
+.container{
+    border: 1px solid rgb(0, 0, 0);
+    background-color: white;
+    width: 60%;
+    margin: auto;
+}
+
+/*-------------------------
+    Log In Sign
+----------------------*/
+
+header{
+    background-color: whitesmoke;
+    
+}
+header h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.2em; 
+    color: black;
+    padding: 20px;
+    background-color: white;
+}
+
+
+
+/*--------------------
+    Google container 
+---------------------*/
+
+.google-container{
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 35px;
+
+}
+.google-container a{
+    padding: 10px 165px;
+    background-color: white;
+    text-decoration: none;
+    box-shadow: 1px 1px 4px black;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid black;
+    border-radius: 0px;
+    color: black;
+    cursor: pointer;
+}
+
+/*--------------------
+    OR Option
+--------------------*/
+
+main{
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+/*------------------------
+    Email & Password
+-------------------------*/
+.email-container{
+    text-align: center;
+    margin-bottom: 15px;
+}
+#email-input{
+    padding: 10px 110px;
+    box-shadow: 1px 1px 4px black;
+}
+.email-container ::placeholder{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+.password-container{
+    text-align: center;
+    margin-bottom:  15px;
+}
+#password-input{
+    padding: 10px 110px;
+    box-shadow: 1px 1px 5px black;
+    text-align: left;
+}
+.password-container ::placeholder{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+/*------------- Forgot Password ----------*/
+.container ul a{
+    padding: 5px 10px;
+    font-size:larger;
+    text-align: right;
+    border-radius: 5px;
+    color: black;
+    cursor: pointer;
+}
+
+/*------------- Log In Button ----------- */
+
+#login-bt{
+    padding: 10px 100px;
+    background-color: blue;
+}
+
+
+
+/*----------------
+    Footer
+-----------------*/
+
+footer{
+    background-color: whitesmoke;
+    margin-top: auto;
+    padding: 20px;
+}
+footer hr{
+    padding: 0px;
+}
+
+
+body{
+    color: gray;
+}
+
+h1, p, h2{
+    margin: 0;
+    padding: 0;
+}

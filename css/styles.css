@@ -1,0 +1,84 @@
+/*---------------------------
+    Header, Login, Search 
+ ----------------------------*/
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #00d6ff;
+    color: #000;
+    padding: 10px 20px;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo h1 {
+    margin: 0;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+}
+
+#search {
+    padding: 5px;
+    margin-right: 10px;
+    border-radius: 4px;
+}
+
+.header-right a{
+    padding: 5px 10px;
+    background-color: whitesmoke;
+    text-decoration: none;
+    border-style: solid;
+    border-radius: 5px;
+    color: black;
+    cursor: pointer;
+}
+
+.header-right a:hover {
+    background-color: white;
+}
+
+/*---------------------
+    Navigation Menu
+---------------------*/
+.main-menu{
+    background-color: #333;
+}
+.main-menu ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.main-menu ul li{
+    display: inline;
+}
+.main-menu ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    display: inline-block;
+    min-width: 100px;
+    text-align: center;
+}
+
+.main-menu ul li a:hover{
+    background-color: #00d6ff;
+    color: black;
+}
+
+.active-page{
+    background-color: #00d6ff;
+    color: black;
+}
